@@ -5,8 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Catalogo from './components/Catalogo';
 import Sobre from './components/Sobre';
+import FaleConosco from './components/FaleConosco';
 import Footer from './components/Footer';
-import Login from './components/Login';
+
 
 function App() {
   useEffect(() =>{
@@ -21,7 +22,7 @@ function App() {
       <Principal></Principal>
       <Catalogo></Catalogo>
       <Sobre></Sobre>
-      <Login></Login>
+      <FaleConosco></FaleConosco>
       <Footer></Footer>
     </div>
   )
