@@ -28,7 +28,7 @@ export default function Navbar(){
                         </div>
                     </div>
                     <ul className="flex items-center xl:gap-12 gap-x-4 max-lg:hidden">
-                        <a href="/" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
+                        <a href="/style-cloud" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
                         <a href="#catalogo" className="leading-normal no-underline text-white text-lg hover:text-dark">Catálogo</a>
                         <a href="#sobre" className="leading-normal no-underline text-white text-lg hover:text-dark">Sobre Nós</a>
                         <a href="#trabalheConosco" className="leading-normal no-underline text-white text-lg hover:text-dark">Trabalhe Conosco</a>
@@ -57,7 +57,7 @@ export default function Navbar(){
                     <div className="lg:hidden w-full fixed top-[4.5rem] bg-sky-500/75 transition-all duration-500 ease-in">
                         <div className="w-full flex flex-col items-baseline gap-4 p-8 pt-12 z-60">
                             <ul className="flex flex-col justify-center w-full z-60" >
-                                <a href="/"className="flex justify-center py-2 leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
+                                <a href="/style-cloud"className="flex justify-center py-2 leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
                                 <a href="#catalogo"className="flex justify-center py-2 leading-normal no-underline text-white text-lg hover:text-dark">Catálogo</a>
                                 <a href="#sobre"className="flex justify-center py-2 leading-normal no-underline text-white text-lg hover:text-dark">Sobre Nós</a>
                                 <a href="#contatos"className="flex justify-center py-2 leading-normal no-underline text-white text-lg hover:text-dark">Contatos</a>
