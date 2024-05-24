@@ -13,7 +13,7 @@ import Img1 from '../../../public/img1.png';
 export default function Catalogo() {
     const [active, setActive] = useState("Crocs");
     return (
-        <div id="catalogo" className="bg-dark">
+        <div className="bg-dark">
             <div className="xl:w-4/5 max-w-[1400px] px-6 mx-auto py-8">
                 <div>
                     <h2 className="text-4xl text-white font-semibold py-6" data-aos="fade-down" data-aos-duration="2000">Catálogo</h2>
@@ -98,17 +98,8 @@ export default function Catalogo() {
                             <img src={Img4} alt="" data-aos="fade-right" />
                         </div>
                     </div>
-                    {/* <div>
-                        <div className="lg:w-1/3 w-full lg:pl-42 lg:pb-89 pb-16" data-aos="fade-up">
-                        </div>
-                        <div className="lg:w-1/2 w-full">
-                            <div>
-                                <p className="text-white flex gap-2">Crocs Azul Marinho <HiHeart /></p>
-                                <img src="/img1.png" alt="" data-aos="fade-down" data-aos-duration="3000"/>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
+                <div id="sobre"></div>
             </div>
         </div>
     )

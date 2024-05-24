@@ -42,8 +42,7 @@ export default function Hero(){
                     </p>
                     <br />
                 </div>
-                <div>
-                </div>
+                <div id="catalogo"></div>
             </div>
         </div>
     )

@@ -1,10 +1,10 @@
 import Img7 from '../../../public/img7.png';
 export default function Sobre() {
   return (
-    <section  className="flex items-center max-lg:flex-col items-center max-lg:flex-col gap-10 w-full max-container bg-gradient-to-r from-blue-500 to-sky-500/75">
-      <div className="xl:w-4/4 max-w-[1400px] px-10 mx-auto py-7 justify-between">
-      <div id="sobre" className="flex flex-col text-dark">
+    <section className="bg-gradient-to-r from-blue-500 to-sky-500/75">
+      <div className="xl:w-4/4 max-w-[1400px] px-20 mx-auto py-9 justify-between">
       <h1  className="lg:w-2/1 text-white font-bold font-palanquin text-3xl capitalize font-bold lg:max-w-lg">Sobre Nós</h1>
+      <div className="flex max-lg:flex-col max-lg:flex-col w-full max-container ">
         <div>
           <h2 className="lg:w-2/1 text-white font-bold font-palanquin py-7 text-3xl capitalize font-bold lg:max-w-lg">
             Visão
@@ -25,15 +25,16 @@ export default function Sobre() {
 
           </p>
         </div>
-      </div>
-    </div>
         <img
           src={Img7}
           alt="crocs-verde"
           width={570}
           height={522}
-          className="object-contain"
+          className="object-contain "
         />
+      </div>
+      <div id="trabalheConosco"></div>
+    </div>
     </section>
   )
 

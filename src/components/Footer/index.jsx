@@ -10,6 +10,7 @@ export default function Footer(){
                     <a href="#home" className="loading-normal no-underline text-white text-lg hover:text-color3">Home</a>
                     <a href="#catalogo" className="loading-normal no-underline text-white text-lg hover:text-color3">Catálogo</a>
                     <a href="#sobre" className="loading-normal no-underline text-white text-lg hover:text-color3">Sobre Nós</a>
+                    <a href="#trabalheConosco" className="loading-normal no-underline text-white text-lg hover:text-color3">Trabalhe Conosco</a>
                     <a href="#contatos" className="loading-normal no-underline text-white text-lg hover:text-color3">Contatos</a>
                 </ul>
                 <div className="flex gap-5 text-white">

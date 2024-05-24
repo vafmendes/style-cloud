@@ -3,9 +3,9 @@ import { BsTwitterX } from "react-icons/bs";
 
 export default function FaleConosco(){
     return(
-        <div id="trabalheConosco" className="xl:w-4/5 max-w-[1400px] px-6 mx-auto py-8">
+        <div className="xl:w-4/5 max-w-[1400px] px-6 mx-auto py-8">
         <div className="grid sm:grid-cols-2 items-center gap-16 bg-white rounded-md text-[#333] font-[sans-serif]">
-            <div>
+            <div className="pt-12">
                 <h1 className="text-4xl font-extrabold">Trabalhe Conosco</h1>
                 <p className="text-1xl text-gray-400 mt-3">Se está interessado em fazer parte de nossa equipe, não perca mais tempo e nos envie seu curriculo</p>
                 <div className="mt-12">
