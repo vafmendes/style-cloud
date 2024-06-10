@@ -2,19 +2,14 @@
 import {HiPlus} from "react-icons/hi";
 import Img2 from '../../../public/img2.png';
 import logo from '../../../public/logo.png';
-import Login from '../../components/Login';
-import {Routes, Route} from "react-router-dom";
-
 import "../../styleGlobal.css";
 
 
 
 export default function Hero(){
     return(
-            <div id="home" className="w-full relative bg-gradient-to-r from-color3 to color3 lg:py-12 py-40 overflow-hidden">
-                <Routes>
-                    <Route path="/style-cloud/login" element={ <Login></Login>}></Route>
-                </Routes>
+            <div id="style-cloud" className="w-full relative bg-gradient-to-r from-color3 to color3 lg:py-12 py-40 overflow-hidden">
+
             <div className="xl:w-4/5 px-[20px] max-w-[1380px] mx-auto relative lg:h-[100vh] flex flex-col justify-center">
                 <div className="absolute top-24 right-40 lg:block hidden">
                     <p className="text-8xl font-semibold opacity-10  italic -tracking-widest">Crocs</p>

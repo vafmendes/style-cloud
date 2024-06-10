@@ -21,13 +21,13 @@ export default function Navbar(){
                 <div className="lg:w-4/5 w-11/12 mx-auto h-full flex justify-between items-center">
                     <div className="flex flex-col gap-y-400">
                         <div className="flex items-center gap-x-2">
-                            <a href="/">
+                            <a href="#style-cloud">
                             <img src={logo} alt="style-cloud" className="w-20 h-20 cursor-pointer hover:bg-white transition-bg"  />
                             </a>
                         </div>
                     </div>
                     <ul className="flex items-center xl:gap-12 gap-x-4 max-lg:hidden">
-                        <a href="" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
+                        <a href="#style-cloud" className="leading-normal no-underline text-white text-lg hover:text-dark">Home</a>
                         <a href="#catalogo" className="leading-normal no-underline text-white text-lg hover:text-dark">Catálogo</a>
                         <a href="#sobre" className="leading-normal no-underline text-white text-lg hover:text-dark">Sobre Nós</a>
                         <a href="#trabalheConosco" className="leading-normal no-underline text-white text-lg hover:text-dark">Trabalhe Conosco</a>
@@ -37,7 +37,7 @@ export default function Navbar(){
                         <Link to={'/carrinho'} className="bg-dark rounded-full shadow h-12 w-12 outline-none text-white hover:bg-white hover:text-dark cursor-pointer text-base transition-bg hover:border hover:border-dark">
                         <HiOutlineShoppingBag  className="w-full h-full p-2" />
                         </Link>
-                        <Link to={'style-cloud/login'} className="bg-dark rounded-full shadow h-12 w-12 outline-none text-white hover:bg-white hover:text-dark cursor-pointer text-base transition-bg hover:border hover:border-dark">
+                        <Link to={'/login'} className="bg-dark rounded-full shadow h-12 w-12 outline-none text-white hover:bg-white hover:text-dark cursor-pointer text-base transition-bg hover:border hover:border-dark">
                         <GoPerson  className="w-full h-full p-2" />
                         </Link>
                     </div>
